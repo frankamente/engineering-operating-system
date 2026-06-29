@@ -61,6 +61,7 @@ By the end of Season 1, the repository should define:
 - `learning/java/toolchain-slice`: first Maven slice created.
 - `knowledge-base/java/modern-java-essentials.md`: initial note complete.
 - `learning/java/language-essentials-slice`: second Maven slice created.
+- Java learning Maven baseline aligned to Java 25.
 
 ### Planned Foundation Work
 
@@ -171,8 +172,8 @@ Turn the accumulated work into a polished, reviewable engineering portfolio.
 
 Only the next few concrete issues should be kept ready at any given time:
 
-1. Decide whether to align Maven to Java 25 before using Java 25-specific features.
-2. Continue object modeling, package boundaries, collections, streams, and error handling.
+1. Continue object modeling, package boundaries, collections, streams, and error handling using the Java 25 baseline.
+2. Use Java 25-specific language features only when they add modeling or testing value.
 3. Define AI collaboration rules when they become necessary for learning workflow.
 4. Create ADR template.
 5. Create RFC template.

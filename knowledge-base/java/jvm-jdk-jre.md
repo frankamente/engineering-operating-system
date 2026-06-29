@@ -95,30 +95,28 @@ Then answer:
 
 ## Local Project Check
 
-On 2026-06-29, the local workspace had:
+On 2026-06-29, the local workspace initially had:
 
 - `java`: OpenJDK 25.
 - `javac`: 25.
 - `mvn`: Apache Maven 3.9.11 running with Java 17.0.2.
 
-This means the command-line Java toolchain and the Maven runtime are not currently aligned.
+That meant the command-line Java toolchain and the Maven runtime were not aligned.
 
-That mismatch is not a blocker, but it is an engineering detail worth understanding before using Java 25 language features in a Maven project.
+The workspace was then aligned so `java`, `javac`, and Maven all use Java 25.
 
 ## Maven Toolchain Observation
 
 Maven itself runs on a JVM. The JVM Maven runs on is not automatically the same JVM reported by `java --version` in every environment.
 
-For the first learning slice, decide explicitly between:
+For this repository, the current Maven learning baseline is Java 25. The earlier mismatch remains useful as a lesson: always verify the runtime used by the build tool instead of assuming it matches the shell.
 
-- Align Maven to Java 25 before using Java 25-specific features.
-- Target Java 17 initially because Maven is already running on Java 17.
+## Resolved Questions
 
-Either choice is acceptable if it is deliberate and documented.
+- Java 25 is the current learning baseline for Maven slices.
+- Maven has been aligned to Java 25.
 
 ## Open Questions
 
-- Should Java 25 become the official learning baseline for Season 1?
-- Should Maven be aligned to Java 25 before the first Maven exercise?
 - When should build tools enter the learning track?
 - Should the first exercise use Maven immediately, given the user's current level?

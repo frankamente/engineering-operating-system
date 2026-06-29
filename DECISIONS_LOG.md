@@ -36,3 +36,5 @@
   Reason: Java 17 already supports records, sealed types, switch expressions, streams, Optional, and immutable collection APIs; changing the Maven toolchain is not necessary for this learning step.
 - Decision: Keep Java learning slices separate and test them through a CI matrix.
   Reason: Separate slices keep learning units focused while the matrix ensures every slice remains executable.
+- Decision: Align the Maven learning baseline to Java 25.
+  Reason: The local `java`, `javac`, and Maven runtime now all use Java 25, so the Maven compiler release and CI baseline should match the actual toolchain.

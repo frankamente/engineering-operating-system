@@ -27,3 +27,4 @@ Start structured Java foundations learning.
 - Java Foundations learning has started with runtime and tooling.
 - The first Maven-based Java learning slice exists under `learning/java/toolchain-slice`.
 - The second Maven-based Java learning slice exists under `learning/java/language-essentials-slice`.
+- Java learning Maven slices now use Java 25 as their baseline.

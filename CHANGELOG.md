@@ -4,6 +4,7 @@ All notable changes to this repository will be documented in this file.
 
 ## Unreleased
 
+- Aligned Maven learning slices and CI to Java 25.
 - Added the Java language essentials learning slice.
 - Updated Java learning CI to test all Maven learning slices.
 - Added the first Maven-based Java learning slice.

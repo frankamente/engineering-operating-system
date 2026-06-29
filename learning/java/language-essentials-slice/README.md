@@ -8,9 +8,9 @@ It models a practice planner for Java learning items. The code is intentionally 
 
 ## Toolchain Decision
 
-This slice keeps the Java 17 Maven target used by the first Maven slice.
+This slice now targets Java 25 with Maven.
 
-Reason: Java 17 already supports records, sealed types, switch expressions, streams, Optional, and immutable collection APIs. Using those well is more valuable right now than changing the toolchain just to reach Java 25-specific features.
+Reason: the local command-line JDK, Maven runtime, Maven compiler release, and CI baseline are now aligned on Java 25. The slice still focuses on durable Java language essentials rather than using newer syntax merely because it is available.
 
 ## Domain
 

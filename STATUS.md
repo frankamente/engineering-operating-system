@@ -26,6 +26,7 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 - First Maven-based Java learning slice tested successfully.
 - Modern Java language essentials slice created.
 - Modern Java language essentials slice tested successfully.
+- Maven learning baseline aligned to Java 25.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
@@ -38,8 +39,8 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 
 ## Next Recommended Work
 
-1. Decide whether to align Maven to Java 25 before using Java 25-specific features.
-2. Continue object modeling, package boundaries, collections, streams, and error handling.
+1. Continue object modeling, package boundaries, collections, streams, and error handling using the Java 25 baseline.
+2. Use Java 25-specific features only when they add modeling or testing value.
 3. Keep learning slices small and test-backed.
 4. Define AI collaboration rules only when they become necessary for learning workflow.
 

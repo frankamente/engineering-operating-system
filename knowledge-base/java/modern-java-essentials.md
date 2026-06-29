@@ -8,7 +8,9 @@ Initial note.
 
 This note captures the Java language features practiced in the second Maven learning slice.
 
-The target is Java 17, not Java 25. That is enough for useful modern Java practice while Maven still runs on Java 17 locally.
+The current Maven learning baseline is Java 25.
+
+The second slice still focuses on features that are broadly useful in modern backend Java: records, sealed types, switch expressions, streams, Optional, immutable collection boundaries, and explicit error handling. The point is to use language features when they clarify the model, not to chase syntax.
 
 ## Records
 
