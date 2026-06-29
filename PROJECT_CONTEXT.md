@@ -10,7 +10,7 @@ Sprint 0 - Foundation
 
 ## Current Objective
 
-Define the remaining Season 1 operating standards.
+Start structured Java foundations learning.
 
 ## Current State
 
@@ -24,3 +24,4 @@ Define the remaining Season 1 operating standards.
 - The Roadmap has an initial draft.
 - Project status is now tracked in `STATUS.md`.
 - The Engineering Manifesto has an initial draft.
+- Java Foundations learning has started with runtime and tooling.

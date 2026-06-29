@@ -20,3 +20,9 @@
   Reason: Future agents and humans need a versioned recovery point that survives chat compaction and does not depend on GitHub UI alone.
 - Decision: Use the Engineering Manifesto as a decision aid.
   Reason: Principles should help evaluate real engineering choices instead of becoming decorative slogans.
+- Decision: Start learning before completing every remaining process artifact.
+  Reason: The repository now has enough foundation; continued process work should be justified by learning or building needs.
+- Decision: Begin with Java runtime and tooling.
+  Reason: Understanding JVM, JDK, compilation, and execution creates a stronger base before frameworks, build tools, or application architecture.
+- Decision: Use the installed Java 25 toolchain for the first learning exercises.
+  Reason: The local environment already provides both `java` and `javac` version 25, allowing plain JDK practice without setup work.

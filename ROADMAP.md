@@ -25,7 +25,7 @@ The repository foundation is complete, and the first two foundational documents 
 - Project Charter.
 - Vision.
 
-The next priority is to define the order and standards for the remaining foundation work before moving into application or platform code.
+The next priority is to start structured Java learning while keeping the remaining process work lightweight and just-in-time.
 
 ## Season 1 - Engineering Foundations
 
@@ -33,7 +33,7 @@ The next priority is to define the order and standards for the remaining foundat
 
 Create the operating model that will guide all future engineering work.
 
-Season 1 is about judgment, documentation, workflow, decision-making, and AI collaboration. It intentionally avoids application implementation until the project has enough structure to support it well.
+Season 1 is about judgment, documentation, workflow, decision-making, AI collaboration, and foundational backend learning. It intentionally avoids product application implementation until the project has enough structure to support it well.
 
 ### Outcomes
 
@@ -46,6 +46,7 @@ By the end of Season 1, the repository should define:
 - How documentation should be structured.
 - How architecture proposals should be discussed.
 - How learning should be captured over time.
+- How Java foundations are understood before frameworks are introduced.
 
 ### Current Foundation
 
@@ -54,10 +55,11 @@ By the end of Season 1, the repository should define:
 - `ROADMAP.md`: initial draft complete.
 - `STATUS.md`: initial draft complete.
 - `ENGINEERING_MANIFESTO.md`: initial draft complete.
+- `docs/learning/java-foundations-track.md`: started.
+- `knowledge-base/java/jvm-jdk-jre.md`: initial note complete.
 
 ### Planned Foundation Work
 
-- `ENGINEERING_MANIFESTO.md`: engineering principles and decision standards.
 - `AGENTS.md`: repository-level instructions for AI collaborators.
 - `.ai/agents/*`: role-specific AI collaboration guides.
 - `templates/adr-template.md`: architecture decision record template.
@@ -65,11 +67,19 @@ By the end of Season 1, the repository should define:
 - `templates/journal-template.md`: weekly reflection template.
 - `docs/glossary/`: shared vocabulary for the project.
 
+### Learning Work
+
+- Java runtime and tooling.
+- Java language fundamentals.
+- Object-oriented foundations.
+- Collections and error handling.
+- First small Java CLI exercise.
+
 ### Not Yet
 
 Season 1 should not include:
 
-- Application code.
+- Product application code.
 - Microservices.
 - Cloud infrastructure.
 - Kafka-based systems.
@@ -156,10 +166,12 @@ Turn the accumulated work into a polished, reviewable engineering portfolio.
 
 Only the next few concrete issues should be kept ready at any given time:
 
-1. Define AI collaboration rules.
-2. Create ADR template.
-3. Create RFC template.
-4. Define weekly journal format.
+1. Create the smallest possible Java program using only JDK tools.
+2. Explain the compile/run flow in your own words.
+3. Continue Java types, variables, and control flow.
+4. Define AI collaboration rules when they become necessary for learning workflow.
+5. Create ADR template.
+6. Create RFC template.
 
 ## Planning Rules
 
