@@ -1,0 +1,28 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Dependencies
+node_modules/
