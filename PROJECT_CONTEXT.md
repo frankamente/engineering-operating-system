@@ -22,3 +22,4 @@ Define the remaining Season 1 foundation work.
 - The Project Charter has an initial draft.
 - The Vision has an initial draft.
 - The Roadmap has an initial draft.
+- Project status is now tracked in `STATUS.md`.
