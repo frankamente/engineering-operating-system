@@ -114,15 +114,17 @@ It practices:
 - Immutable transitions.
 - JUnit tests.
 
-## Toolchain Decision
+## Initial Toolchain Decision
 
-The slice targets Java 17 with Maven.
+The slice initially targeted Java 17 with Maven.
 
 Reason:
 
 - Maven is installed and runs on Java 17.
 - The slice does not need Java 25-specific features.
 - The mismatch between Java 25 CLI tools and Maven's Java 17 runtime should be handled explicitly later.
+
+This decision was later superseded after Maven was aligned to Java 25.
 
 ## Test Result
 
@@ -177,7 +179,7 @@ It practices:
 - explicit validation and error handling;
 - JUnit behavior tests.
 
-The slice remains Java 17-compatible because Maven still runs on Java 17 locally, and Java 17 is enough for these features.
+The slice was originally Java 17-compatible because Maven still ran on Java 17 locally. After toolchain alignment, it targets Java 25 with the rest of the Maven learning baseline.
 
 ## Modern Java Essentials Test Result
 
@@ -198,7 +200,34 @@ The second Maven slice is working locally.
 
 ## Next Learning Step After Modern Java Essentials
 
-Either:
+- Continue Java practice with object modeling, package boundaries, collections, streams, and error handling.
+- Use Java 25-specific features only when they add modeling or testing value.
 
-- align Maven to Java 25 before practicing Java 25-specific features; or
-- continue Java 17-compatible practice with object modeling, package boundaries, collections, streams, and error handling.
+## Java 25 Maven Alignment
+
+Maven was aligned to Java 25 after the first two Maven learning slices.
+
+Current local toolchain:
+
+```text
+java: OpenJDK 25
+javac: 25
+mvn: Apache Maven 3.9.11 running on Java 25
+```
+
+The existing Maven learning slices now use:
+
+```text
+maven.compiler.release=25
+```
+
+GitHub Actions also uses Java 25 for Java learning slice tests.
+
+Local validation after alignment:
+
+```text
+toolchain-slice: 16 tests, 0 failures
+language-essentials-slice: 28 tests, 0 failures
+```
+
+Maven 3.9.11 currently prints a Java 25 warning about `sun.misc.Unsafe` from its Guice dependency. The warning does not fail the build.

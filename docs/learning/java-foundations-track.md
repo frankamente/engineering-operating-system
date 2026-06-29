@@ -78,7 +78,7 @@ Current slice:
 
 - `learning/java/language-essentials-slice`
 
-The second slice models a compact practice planner. It stays framework-free and Java 17-compatible while practicing modern Java features in a domain that belongs to this repository.
+The second slice models a compact practice planner. It stays framework-free while practicing modern Java features in a domain that belongs to this repository.
 
 ## Planned Modules
 
@@ -132,14 +132,14 @@ Create a second Maven learning slice that practices:
 - immutable collections;
 - result-style error handling.
 
-Keep the exercise Java 17-compatible unless Maven toolchain alignment is handled first.
+Keep the exercise aligned with the current Java 25 Maven baseline.
 
 ## Current Toolchain Decision
 
-The Maven learning slices target Java 17 because Maven currently runs on Java 17.
+The Maven learning slices target Java 25 because the command-line JDK, compiler, Maven runtime, Maven compiler release, and CI baseline are now aligned on Java 25.
 
-This avoids hiding a toolchain alignment problem inside the learning exercise. Java 25 remains available locally through `java` and `javac`, but Java 25-specific language features should wait until Maven alignment is handled deliberately.
+The earlier Java 17 Maven mismatch was handled deliberately and documented in the Maven toolchain note.
 
 ## Next Practice Prompt
 
-Continue with object modeling, package boundaries, collections, streams, and error handling, or decide first whether Maven should be aligned to Java 25 before using Java 25-specific language features.
+Continue with object modeling, package boundaries, collections, streams, and error handling using the Java 25 Maven baseline. Use Java 25-specific features only when they make the learning slice clearer.

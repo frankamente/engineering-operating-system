@@ -10,7 +10,7 @@
   <name>Java Toolchain Slice</name>
 
   <properties>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.release>25</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.jupiter.version>5.11.4</junit.jupiter.version>
   </properties>

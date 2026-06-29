@@ -12,11 +12,11 @@ The local machine currently reports:
 
 - `java`: OpenJDK 25.
 - `javac`: 25.
-- `mvn`: Maven 3.9.11 running on Java 17.0.2.
+- `mvn`: Maven 3.9.11 running on Java 25.
 
-For this slice, the Maven project targets Java 17 with `maven.compiler.release=17`.
+For this slice, the Maven project targets Java 25 with `maven.compiler.release=25`.
 
-Reason: Maven is already running on Java 17, and this slice does not need Java 25-specific language features. Aligning Maven to Java 25 is useful, but it should be handled as a deliberate tooling task rather than hidden inside this exercise.
+Reason: the command-line JDK, compiler, Maven runtime, Maven compiler release, and CI baseline are now aligned on Java 25.
 
 ## Domain
 
