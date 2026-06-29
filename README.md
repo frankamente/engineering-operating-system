@@ -19,6 +19,7 @@ Progress: 0%
 - [Engineering Manifesto](ENGINEERING_MANIFESTO.md)
 - [Roadmap](ROADMAP.md)
 - [Project Status](STATUS.md)
+- [Java Foundations Track](docs/learning/java-foundations-track.md)
 - [Project Context](PROJECT_CONTEXT.md)
 - [Decisions Log](DECISIONS_LOG.md)
 - [Changelog](CHANGELOG.md)
@@ -26,4 +27,6 @@ Progress: 0%
 
 ## Repository Status
 
-Sprint 0 - Foundation is in progress.
+Season 1 - Engineering Foundations is in progress.
+
+Current focus: Java Foundations Learning Track.

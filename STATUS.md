@@ -10,7 +10,7 @@ Season 1 - Engineering Foundations
 
 ## Current Focus
 
-Define the remaining foundational documents and operating standards before starting application code.
+Start structured Java foundations learning while keeping the repository workflow lightweight.
 
 ## Completed Recently
 
@@ -20,24 +20,26 @@ Define the remaining foundational documents and operating standards before start
 - Initial Roadmap.
 - Initial Project Status.
 - Initial Engineering Manifesto.
+- Java Foundations Learning Track started.
+- Local Java 25 toolchain verified.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
 
 - Active issue: none.
 - Active pull request: none.
-- Current workflow item: select the next recommended work item.
+- Ready issue: EOS-7 - Create First Java Program with JDK Tools.
 
 ## Next Recommended Work
 
-1. Define AI collaboration rules.
-2. Create ADR template.
-3. Create RFC template.
-4. Define weekly journal format.
+1. Create and run the smallest possible Java program using only JDK tools.
+2. Explain the compile/run flow in your own words.
+3. Continue Java types, variables, and control flow.
+4. Define AI collaboration rules when they become necessary for learning workflow.
 
 ## Do Not Start Yet
 
-- Application code.
+- Product application code.
 - Microservices.
 - Kafka.
 - Cloud infrastructure.
