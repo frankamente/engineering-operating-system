@@ -86,3 +86,64 @@ The next useful step is an intermediate learning slice:
 ## Next Learning Step
 
 Create a small Maven-based Java learning slice and document the Java 25 vs Maven Java 17 toolchain decision.
+
+## Maven Learning Slice
+
+Created the first Maven-based learning slice under:
+
+```text
+learning/java/toolchain-slice
+```
+
+The slice models workflow items and WIP limits:
+
+- `WorkflowStatus`
+- `WorkItem`
+- `WipLimitPolicy`
+- `WorkflowTransitionPolicy`
+
+The exercise is intentionally small but not trivial. After recalibrating the target level, it includes explicit workflow transition rules so the code has a more realistic modeling decision without jumping to frameworks or product application code.
+
+It practices:
+
+- Maven project layout.
+- Java package structure.
+- Records and enums.
+- Validation.
+- Collections.
+- Immutable transitions.
+- JUnit tests.
+
+## Toolchain Decision
+
+The slice targets Java 17 with Maven.
+
+Reason:
+
+- Maven is installed and runs on Java 17.
+- The slice does not need Java 25-specific features.
+- The mismatch between Java 25 CLI tools and Maven's Java 17 runtime should be handled explicitly later.
+
+## Test Result
+
+Command:
+
+```bash
+mvn test
+```
+
+Result:
+
+```text
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+BUILD SUCCESS
+```
+
+The first Maven slice is working locally.
+
+## Next Learning Step After This Slice
+
+Either:
+
+- align Maven to Java 25 before using newer language features; or
+- continue one more Java 17-compatible slice focused on modern Java essentials.

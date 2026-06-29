@@ -44,6 +44,13 @@ Learning outcomes:
 - Create a small Maven-based Java learning slice.
 - Write tests for the slice.
 - Document trade-offs before introducing frameworks.
+- Model explicit workflow rules without introducing framework code.
+
+Current slice:
+
+- `learning/java/toolchain-slice`
+
+The first slice includes WIP limit behavior and workflow transition rules. This keeps the exercise compact while making it more useful than introductory syntax practice.
 
 ## Planned Modules
 
@@ -84,3 +91,9 @@ mvn -v
 ```
 
 Record the toolchain state and decision in the learning journal.
+
+## Current Toolchain Decision
+
+The first Maven learning slice targets Java 17 because Maven currently runs on Java 17.
+
+This avoids hiding a toolchain alignment problem inside the learning exercise. Java 25 remains available locally through `java` and `javac`, but Java 25-specific language features should wait until Maven alignment is handled deliberately.

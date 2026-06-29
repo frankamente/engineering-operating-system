@@ -22,20 +22,22 @@ Start structured Java foundations learning at an intermediate backend-engineerin
 - Initial Engineering Manifesto.
 - Java Foundations Learning Track started.
 - Local Java 25 toolchain verified.
+- First Maven-based Java learning slice created.
+- First Maven-based Java learning slice tested successfully.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
 
 - Active issue: none.
 - Active pull request: none.
-- Ready issue: EOS-7 - Build First Java Learning Slice with Maven.
+- Current learning slice: `learning/java/toolchain-slice`.
 
 ## Next Recommended Work
 
-1. Build the first Maven-based Java learning slice.
-2. Decide how to handle the Java 25 vs Maven Java 17 toolchain mismatch.
-3. Write tests for the first small domain exercise.
-4. Continue modern Java language essentials.
+1. Continue modern Java language essentials with tests.
+2. Decide whether to align Maven to Java 25 before using Java 25-specific features.
+3. Keep learning slices small and test-backed.
+4. Define AI collaboration rules only when they become necessary for learning workflow.
 
 ## Do Not Start Yet
 
