@@ -69,11 +69,12 @@ By the end of Season 1, the repository should define:
 
 ### Learning Work
 
-- Java runtime and tooling.
-- Java language fundamentals.
-- Object-oriented foundations.
-- Collections and error handling.
-- First small Java CLI exercise.
+- Java toolchain alignment.
+- Maven-based learning slices.
+- Modern Java language essentials.
+- Object modeling and package boundaries.
+- Collections, streams, and error handling.
+- Testing and refactoring.
 
 ### Not Yet
 
@@ -166,9 +167,9 @@ Turn the accumulated work into a polished, reviewable engineering portfolio.
 
 Only the next few concrete issues should be kept ready at any given time:
 
-1. Create the smallest possible Java program using only JDK tools.
-2. Explain the compile/run flow in your own words.
-3. Continue Java types, variables, and control flow.
+1. Build the first Maven-based Java learning slice.
+2. Decide how to handle the Java 25 vs Maven Java 17 toolchain mismatch.
+3. Continue modern Java language essentials.
 4. Define AI collaboration rules when they become necessary for learning workflow.
 5. Create ADR template.
 6. Create RFC template.

@@ -49,11 +49,32 @@ OpenJDK 64-Bit Server VM (build 25+36-3489, mixed mode, sharing)
 javac 25
 ```
 
+`mvn -v`:
+
+```text
+Apache Maven 3.9.11
+Java version: 17.0.2
+```
+
 ## First Understanding
 
 The local machine has both the Java runtime command (`java`) and the Java compiler (`javac`) available.
 
-That means the next practice step can use plain JDK tools without introducing an IDE, Maven, Gradle, or Spring yet.
+Maven is also available, but it is currently running with Java 17 while `java` and `javac` report Java 25.
+
+That mismatch should be handled deliberately before the first Maven-based learning slice.
+
+## Level Calibration
+
+The learning track should not spend time on beginner-level Java exercises.
+
+The next useful step is an intermediate learning slice:
+
+- Maven project structure.
+- Package boundaries.
+- Small domain model.
+- Tests.
+- Toolchain decision.
 
 ## Reflection Prompts
 
@@ -64,4 +85,4 @@ That means the next practice step can use plain JDK tools without introducing an
 
 ## Next Learning Step
 
-Create and run the smallest possible Java program using only the JDK tools.
+Create a small Maven-based Java learning slice and document the Java 25 vs Maven Java 17 toolchain decision.
