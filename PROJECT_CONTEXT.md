@@ -10,7 +10,7 @@ Sprint 0 - Foundation
 
 ## Current Objective
 
-Create the initial repository structure and prepare the operating model before writing the foundational documents.
+Write and review the Project Charter as the first foundational document.
 
 ## Current State
 
@@ -18,3 +18,5 @@ Create the initial repository structure and prepare the operating model before w
 - There is no architecture yet.
 - The repository is the source of truth for the project.
 - All repository artifacts should be written in English.
+- Sprint 0 foundation has been merged.
+- The Project Charter has an initial draft.
