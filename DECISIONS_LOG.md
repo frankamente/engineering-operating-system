@@ -26,3 +26,7 @@
   Reason: Understanding JVM, JDK, compilation, and execution creates a stronger base before frameworks, build tools, or application architecture.
 - Decision: Use the installed Java 25 toolchain for the first learning exercises.
   Reason: The local environment already provides both `java` and `javac` version 25, allowing plain JDK practice without setup work.
+- Decision: Recalibrate the Java learning track above beginner level.
+  Reason: The project owner already has more than beginner-level Java knowledge; learning work should focus on professional backend practice rather than trivial syntax exercises.
+- Decision: Make Maven toolchain alignment part of the first Java learning slice.
+  Reason: Maven is installed but currently runs on Java 17 while `java` and `javac` report Java 25, which is a real tooling concern worth handling deliberately.

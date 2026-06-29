@@ -8,7 +8,9 @@ Started.
 
 This track starts the practical learning phase of the Engineering Operating System.
 
-The goal is to learn Java deliberately: understand the runtime, practice the language, document the mental model, and reflect after each learning step.
+The goal is to learn Java deliberately at an intermediate backend-engineering level: understand the runtime and tooling, practice modern language features, use tests, document design choices, and reflect after each learning step.
+
+This is not a beginner Java track. Avoid spending full learning units on trivial syntax or `Hello World`-style exercises.
 
 ## Learning Loop
 
@@ -24,33 +26,34 @@ The point is not to collect notes. The point is to make learning compound.
 
 ## Current Module
 
-### Module 1 - Java Runtime and Tooling
+### Module 1 - Java Toolchain and First Learning Slice
 
 Focus:
 
-- JVM.
-- JDK.
-- JRE.
-- Source files and bytecode.
-- `javac` and `java`.
-- Minimal project structure.
+- Java runtime and compiler versions.
+- Maven runtime alignment.
+- Package structure.
+- Maven build lifecycle.
+- A small domain-oriented exercise.
+- Automated tests.
 
 Learning outcomes:
 
-- Explain the difference between JDK, JRE, and JVM.
-- Describe what happens when a `.java` file becomes a running program.
-- Run the basic Java toolchain commands locally.
-- Identify what should and should not be learned before Maven, Gradle, or Spring.
+- Explain the relevant JVM/JDK/JRE model without dwelling on basics.
+- Identify whether `java`, `javac`, and Maven are using the same Java version.
+- Create a small Maven-based Java learning slice.
+- Write tests for the slice.
+- Document trade-offs before introducing frameworks.
 
 ## Planned Modules
 
-1. Java Runtime and Tooling.
-2. Types, Variables, and Control Flow.
-3. Classes, Objects, and Packages.
-4. Collections and Error Handling.
-5. First Java CLI Exercise.
-6. Testing Basics.
-7. Build Tools Introduction.
+1. Java Toolchain and First Learning Slice.
+2. Modern Java Language Essentials.
+3. Object Modeling, Packages, and Boundaries.
+4. Collections, Streams, and Error Handling.
+5. Testing and Refactoring.
+6. Build Tooling and Dependency Management.
+7. First Backend-Oriented CLI or Library Exercise.
 
 ## Not Yet
 
@@ -65,18 +68,19 @@ Do not start these topics until the foundations are clearer:
 
 ## Current Practice Prompt
 
-Before writing application code, answer these questions in your own words:
+Before writing the first learning slice, answer these questions:
 
-- What does the JDK contain?
-- What does the JVM execute?
-- Why can Java bytecode run on different operating systems?
-- What is the difference between compiling and running?
+- Which Java version do `java` and `javac` use?
+- Which Java version does Maven use?
+- Should the first learning slice align Maven to Java 25 or target the Java version Maven currently uses?
+- What small domain problem is useful enough to test, but small enough to finish in one PR?
 
 Then run:
 
 ```bash
 java --version
 javac --version
+mvn -v
 ```
 
-Record what is installed locally in the learning journal.
+Record the toolchain state and decision in the learning journal.

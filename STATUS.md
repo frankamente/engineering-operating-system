@@ -10,7 +10,7 @@ Season 1 - Engineering Foundations
 
 ## Current Focus
 
-Start structured Java foundations learning while keeping the repository workflow lightweight.
+Start structured Java foundations learning at an intermediate backend-engineering level.
 
 ## Completed Recently
 
@@ -28,14 +28,14 @@ Start structured Java foundations learning while keeping the repository workflow
 
 - Active issue: none.
 - Active pull request: none.
-- Ready issue: EOS-7 - Create First Java Program with JDK Tools.
+- Ready issue: EOS-7 - Build First Java Learning Slice with Maven.
 
 ## Next Recommended Work
 
-1. Create and run the smallest possible Java program using only JDK tools.
-2. Explain the compile/run flow in your own words.
-3. Continue Java types, variables, and control flow.
-4. Define AI collaboration rules when they become necessary for learning workflow.
+1. Build the first Maven-based Java learning slice.
+2. Decide how to handle the Java 25 vs Maven Java 17 toolchain mismatch.
+3. Write tests for the first small domain exercise.
+4. Continue modern Java language essentials.
 
 ## Do Not Start Yet
 
@@ -45,6 +45,7 @@ Start structured Java foundations learning while keeping the repository workflow
 - Cloud infrastructure.
 - Frontend implementation.
 - Production deployment pipelines.
+- Beginner-only Java exercises that do not add useful practice.
 
 ## Notes for Future Agents
 
