@@ -25,3 +25,4 @@ Start structured Java foundations learning.
 - Project status is now tracked in `STATUS.md`.
 - The Engineering Manifesto has an initial draft.
 - Java Foundations learning has started with runtime and tooling.
+- The first Maven-based Java learning slice exists under `learning/java/toolchain-slice`.

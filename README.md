@@ -20,6 +20,7 @@ Progress: 0%
 - [Roadmap](ROADMAP.md)
 - [Project Status](STATUS.md)
 - [Java Foundations Track](docs/learning/java-foundations-track.md)
+- [Java Toolchain Slice](learning/java/toolchain-slice/README.md)
 - [Project Context](PROJECT_CONTEXT.md)
 - [Decisions Log](DECISIONS_LOG.md)
 - [Changelog](CHANGELOG.md)

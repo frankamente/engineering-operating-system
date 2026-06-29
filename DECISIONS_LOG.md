@@ -30,3 +30,5 @@
   Reason: The project owner already has more than beginner-level Java knowledge; learning work should focus on professional backend practice rather than trivial syntax exercises.
 - Decision: Make Maven toolchain alignment part of the first Java learning slice.
   Reason: Maven is installed but currently runs on Java 17 while `java` and `javac` report Java 25, which is a real tooling concern worth handling deliberately.
+- Decision: Target Java 17 for the first Maven learning slice.
+  Reason: Maven currently runs on Java 17, and the first slice practices package structure, domain modeling, and tests without needing Java 25-specific features.
