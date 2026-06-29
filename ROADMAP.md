@@ -53,6 +53,7 @@ By the end of Season 1, the repository should define:
 - `VISION.md`: initial draft complete.
 - `ROADMAP.md`: initial draft complete.
 - `STATUS.md`: initial draft complete.
+- `ENGINEERING_MANIFESTO.md`: initial draft complete.
 
 ### Planned Foundation Work
 
@@ -155,11 +156,10 @@ Turn the accumulated work into a polished, reviewable engineering portfolio.
 
 Only the next few concrete issues should be kept ready at any given time:
 
-1. Draft Engineering Manifesto.
-2. Define AI collaboration rules.
-3. Create ADR template.
-4. Create RFC template.
-5. Define weekly journal format.
+1. Define AI collaboration rules.
+2. Create ADR template.
+3. Create RFC template.
+4. Define weekly journal format.
 
 ## Planning Rules
 

@@ -18,3 +18,5 @@
   Reason: A lightweight backlog preserves direction without creating speculative task maintenance.
 - Decision: Add `STATUS.md` as the operational project state.
   Reason: Future agents and humans need a versioned recovery point that survives chat compaction and does not depend on GitHub UI alone.
+- Decision: Use the Engineering Manifesto as a decision aid.
+  Reason: Principles should help evaluate real engineering choices instead of becoming decorative slogans.
