@@ -16,3 +16,5 @@
   Reason: The roadmap defines the order and boundaries of Season 1 before adding more principles or standards.
 - Decision: Keep detailed issues limited to near-term work.
   Reason: A lightweight backlog preserves direction without creating speculative task maintenance.
+- Decision: Add `STATUS.md` as the operational project state.
+  Reason: Future agents and humans need a versioned recovery point that survives chat compaction and does not depend on GitHub UI alone.

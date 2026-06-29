@@ -18,6 +18,7 @@ Progress: 0%
 - [Vision](VISION.md)
 - [Engineering Manifesto](ENGINEERING_MANIFESTO.md)
 - [Roadmap](ROADMAP.md)
+- [Project Status](STATUS.md)
 - [Project Context](PROJECT_CONTEXT.md)
 - [Decisions Log](DECISIONS_LOG.md)
 - [Changelog](CHANGELOG.md)

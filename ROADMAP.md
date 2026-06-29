@@ -52,6 +52,7 @@ By the end of Season 1, the repository should define:
 - `PROJECT_CHARTER.md`: initial draft complete.
 - `VISION.md`: initial draft complete.
 - `ROADMAP.md`: initial draft complete.
+- `STATUS.md`: initial draft complete.
 
 ### Planned Foundation Work
 
