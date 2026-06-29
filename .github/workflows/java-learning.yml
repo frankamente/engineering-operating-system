@@ -13,9 +13,16 @@ on:
       - ".github/workflows/java-learning.yml"
 
 jobs:
-  toolchain-slice:
-    name: Toolchain slice tests
+  java-slice:
+    name: ${{ matrix.module }} tests
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        module:
+          - toolchain-slice
+          - language-essentials-slice
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,5 +35,5 @@ jobs:
           cache: maven
 
       - name: Test
-        working-directory: learning/java/toolchain-slice
+        working-directory: learning/java/${{ matrix.module }}
         run: mvn test

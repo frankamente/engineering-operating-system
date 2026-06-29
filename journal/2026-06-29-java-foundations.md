@@ -147,3 +147,58 @@ Either:
 
 - align Maven to Java 25 before using newer language features; or
 - continue one more Java 17-compatible slice focused on modern Java essentials.
+
+## Modern Java Language Essentials Slice
+
+Created the second Maven-based learning slice under:
+
+```text
+learning/java/language-essentials-slice
+```
+
+The slice models a compact practice planner:
+
+- `PracticeItem`
+- `PracticeStatus`
+- `LanguageFeature`
+- `PracticeSignal`
+- `PracticePlanner`
+
+The goal is to practice modern Java features in code that has domain behavior, not just syntax examples.
+
+It practices:
+
+- records with compact constructors;
+- defensive copies for immutable boundaries;
+- sealed interfaces for finite result shapes;
+- switch expressions;
+- streams for filtering, sorting, grouping, flattening, and frequency counts;
+- Optional lookup behavior;
+- explicit validation and error handling;
+- JUnit behavior tests.
+
+The slice remains Java 17-compatible because Maven still runs on Java 17 locally, and Java 17 is enough for these features.
+
+## Modern Java Essentials Test Result
+
+Command:
+
+```bash
+mvn test
+```
+
+Result:
+
+```text
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+BUILD SUCCESS
+```
+
+The second Maven slice is working locally.
+
+## Next Learning Step After Modern Java Essentials
+
+Either:
+
+- align Maven to Java 25 before practicing Java 25-specific features; or
+- continue Java 17-compatible practice with object modeling, package boundaries, collections, streams, and error handling.

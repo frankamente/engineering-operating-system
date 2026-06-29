@@ -59,6 +59,8 @@ By the end of Season 1, the repository should define:
 - `knowledge-base/java/jvm-jdk-jre.md`: initial note complete.
 - `knowledge-base/java/maven-toolchain.md`: initial note complete.
 - `learning/java/toolchain-slice`: first Maven slice created.
+- `knowledge-base/java/modern-java-essentials.md`: initial note complete.
+- `learning/java/language-essentials-slice`: second Maven slice created.
 
 ### Planned Foundation Work
 
@@ -169,8 +171,8 @@ Turn the accumulated work into a polished, reviewable engineering portfolio.
 
 Only the next few concrete issues should be kept ready at any given time:
 
-1. Continue modern Java language essentials with tests.
-2. Decide whether to align Maven to Java 25 before using Java 25-specific features.
+1. Decide whether to align Maven to Java 25 before using Java 25-specific features.
+2. Continue object modeling, package boundaries, collections, streams, and error handling.
 3. Define AI collaboration rules when they become necessary for learning workflow.
 4. Create ADR template.
 5. Create RFC template.

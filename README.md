@@ -21,6 +21,7 @@ Progress: 0%
 - [Project Status](STATUS.md)
 - [Java Foundations Track](docs/learning/java-foundations-track.md)
 - [Java Toolchain Slice](learning/java/toolchain-slice/README.md)
+- [Java Language Essentials Slice](learning/java/language-essentials-slice/README.md)
 - [Project Context](PROJECT_CONTEXT.md)
 - [Decisions Log](DECISIONS_LOG.md)
 - [Changelog](CHANGELOG.md)
