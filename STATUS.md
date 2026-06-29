@@ -18,6 +18,8 @@ Define the remaining foundational documents and operating standards before start
 - Initial Project Charter.
 - Initial Vision.
 - Initial Roadmap.
+- Initial Project Status.
+- Initial Engineering Manifesto.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
@@ -28,11 +30,10 @@ Define the remaining foundational documents and operating standards before start
 
 ## Next Recommended Work
 
-1. Draft Engineering Manifesto.
-2. Define AI collaboration rules.
-3. Create ADR template.
-4. Create RFC template.
-5. Define weekly journal format.
+1. Define AI collaboration rules.
+2. Create ADR template.
+3. Create RFC template.
+4. Define weekly journal format.
 
 ## Do Not Start Yet
 

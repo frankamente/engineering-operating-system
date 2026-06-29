@@ -4,6 +4,7 @@ All notable changes to this repository will be documented in this file.
 
 ## Unreleased
 
+- Drafted the initial Engineering Manifesto.
 - Added initial Project Status.
 - Drafted the initial Roadmap.
 - Drafted the initial Vision.
