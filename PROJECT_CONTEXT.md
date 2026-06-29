@@ -10,7 +10,7 @@ Sprint 0 - Foundation
 
 ## Current Objective
 
-Write and review the Project Charter as the first foundational document.
+Define the foundational document set for Season 1.
 
 ## Current State
 
@@ -20,3 +20,4 @@ Write and review the Project Charter as the first foundational document.
 - All repository artifacts should be written in English.
 - Sprint 0 foundation has been merged.
 - The Project Charter has an initial draft.
+- The Vision has an initial draft.

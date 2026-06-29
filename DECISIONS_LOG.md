@@ -10,3 +10,5 @@
   Reason: Practice technical English and keep the project suitable for an international portfolio.
 - Decision: Write the Project Charter as the first foundational document.
   Reason: The charter defines purpose, scope, constraints, and operating model before deeper handbooks or templates are created.
+- Decision: Write the Vision after the Project Charter.
+  Reason: The charter defines the operating frame; the vision explains the long-term purpose that should keep the project coherent over time.
