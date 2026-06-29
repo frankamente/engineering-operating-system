@@ -12,3 +12,7 @@
   Reason: The charter defines purpose, scope, constraints, and operating model before deeper handbooks or templates are created.
 - Decision: Write the Vision after the Project Charter.
   Reason: The charter defines the operating frame; the vision explains the long-term purpose that should keep the project coherent over time.
+- Decision: Draft the Roadmap before the Engineering Manifesto.
+  Reason: The roadmap defines the order and boundaries of Season 1 before adding more principles or standards.
+- Decision: Keep detailed issues limited to near-term work.
+  Reason: A lightweight backlog preserves direction without creating speculative task maintenance.
