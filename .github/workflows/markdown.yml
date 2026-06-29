@@ -1,0 +1,33 @@
+name: Markdown
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/markdown.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - ".github/workflows/markdown.yml"
+
+jobs:
+  structure:
+    name: Repository structure
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify required files
+        run: |
+          test -f README.md
+          test -f AGENTS.md
+          test -f PROJECT_CONTEXT.md
+          test -f PROJECT_CHARTER.md
+          test -f ROADMAP.md
+          test -f DECISIONS_LOG.md
+          test -f CHANGELOG.md
+          test -f VISION.md
+          test -f ENGINEERING_MANIFESTO.md

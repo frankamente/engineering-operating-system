@@ -1,0 +1,26 @@
+name: Task
+description: Track a concrete piece of work.
+title: "EOS-"
+labels: []
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this task exist?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected Outcome
+      description: What should be true when this is done?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Constraints, references, or open questions.
+    validations:
+      required: false

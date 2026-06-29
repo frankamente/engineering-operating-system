@@ -1,0 +1,69 @@
+- name: feature
+  color: "0E8A16"
+  description: New capability or project increment.
+- name: bug
+  color: "D73A4A"
+  description: Something is broken or incorrect.
+- name: documentation
+  color: "0075CA"
+  description: Documentation-only changes.
+- name: architecture
+  color: "5319E7"
+  description: Architecture, design, or structural decisions.
+- name: testing
+  color: "C2E0C6"
+  description: Testing strategy or test implementation.
+- name: performance
+  color: "FBCA04"
+  description: Performance-related work.
+- name: security
+  color: "B60205"
+  description: Security-related work.
+- name: refactor
+  color: "1D76DB"
+  description: Internal improvement without behavior change.
+- name: learning
+  color: "D4C5F9"
+  description: Learning notes or deliberate practice.
+- name: research
+  color: "BFDADC"
+  description: Investigation before making a decision.
+- name: P0
+  color: "B60205"
+  description: Critical priority.
+- name: P1
+  color: "D93F0B"
+  description: High priority.
+- name: P2
+  color: "FBCA04"
+  description: Medium priority.
+- name: P3
+  color: "C5DEF5"
+  description: Low priority.
+- name: java
+  color: "F9D0C4"
+  description: Java-related work.
+- name: spring
+  color: "C2E0C6"
+  description: Spring-related work.
+- name: kafka
+  color: "D4C5F9"
+  description: Kafka-related work.
+- name: aws
+  color: "FDEBD0"
+  description: AWS-related work.
+- name: ddd
+  color: "5319E7"
+  description: Domain-Driven Design.
+- name: frontend
+  color: "1D76DB"
+  description: Frontend-related work.
+- name: devops
+  color: "006B75"
+  description: DevOps-related work.
+- name: observability
+  color: "0052CC"
+  description: Observability-related work.
+- name: ai
+  color: "7057FF"
+  description: AI-assisted engineering work.
