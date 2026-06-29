@@ -27,6 +27,7 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 - Modern Java language essentials slice created.
 - Modern Java language essentials slice tested successfully.
 - Maven learning baseline aligned to Java 25.
+- Repository diagram standard set to Mermaid.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
@@ -60,6 +61,7 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 - Repository artifacts should be written in English.
 - Discussion and planning may happen in Spanish.
 - Keep detailed issues near-term; do not create a large speculative backlog.
+- Create repository diagrams with Mermaid only.
 - Follow the issue -> branch -> pull request -> review -> merge workflow.
 - Update `STATUS.md` whenever the active project state changes.
 - Update `PROJECT_CONTEXT.md` when the broader operating context changes.

@@ -28,3 +28,4 @@ Start structured Java foundations learning.
 - The first Maven-based Java learning slice exists under `learning/java/toolchain-slice`.
 - The second Maven-based Java learning slice exists under `learning/java/language-essentials-slice`.
 - Java learning Maven slices now use Java 25 as their baseline.
+- Repository diagrams must use Mermaid as their canonical source format.

@@ -62,10 +62,11 @@ By the end of Season 1, the repository should define:
 - `knowledge-base/java/modern-java-essentials.md`: initial note complete.
 - `learning/java/language-essentials-slice`: second Maven slice created.
 - Java learning Maven baseline aligned to Java 25.
+- `AGENTS.md`: initial repository-level AI collaborator instructions started.
+- `diagrams/README.md`: Mermaid diagram convention defined.
 
 ### Planned Foundation Work
 
-- `AGENTS.md`: repository-level instructions for AI collaborators.
 - `.ai/agents/*`: role-specific AI collaboration guides.
 - `templates/adr-template.md`: architecture decision record template.
 - `templates/rfc-template.md`: request for comments template.
