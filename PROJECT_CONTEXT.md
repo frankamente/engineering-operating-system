@@ -10,7 +10,7 @@ Sprint 0 - Foundation
 
 ## Current Objective
 
-Define the foundational document set for Season 1.
+Define the remaining Season 1 foundation work.
 
 ## Current State
 
@@ -21,3 +21,4 @@ Define the foundational document set for Season 1.
 - Sprint 0 foundation has been merged.
 - The Project Charter has an initial draft.
 - The Vision has an initial draft.
+- The Roadmap has an initial draft.
