@@ -32,3 +32,7 @@
   Reason: Maven is installed but currently runs on Java 17 while `java` and `javac` report Java 25, which is a real tooling concern worth handling deliberately.
 - Decision: Target Java 17 for the first Maven learning slice.
   Reason: Maven currently runs on Java 17, and the first slice practices package structure, domain modeling, and tests without needing Java 25-specific features.
+- Decision: Keep the second Java learning slice Java 17-compatible.
+  Reason: Java 17 already supports records, sealed types, switch expressions, streams, Optional, and immutable collection APIs; changing the Maven toolchain is not necessary for this learning step.
+- Decision: Keep Java learning slices separate and test them through a CI matrix.
+  Reason: Separate slices keep learning units focused while the matrix ensures every slice remains executable.

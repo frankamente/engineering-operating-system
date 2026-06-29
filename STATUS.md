@@ -10,7 +10,7 @@ Season 1 - Engineering Foundations
 
 ## Current Focus
 
-Start structured Java foundations learning at an intermediate backend-engineering level.
+Continue structured Java foundations learning at an intermediate backend-engineering level.
 
 ## Completed Recently
 
@@ -24,18 +24,22 @@ Start structured Java foundations learning at an intermediate backend-engineerin
 - Local Java 25 toolchain verified.
 - First Maven-based Java learning slice created.
 - First Maven-based Java learning slice tested successfully.
+- Modern Java language essentials slice created.
+- Modern Java language essentials slice tested successfully.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
 
 - Active issue: none.
 - Active pull request: none.
-- Current learning slice: `learning/java/toolchain-slice`.
+- Current learning slices:
+  - `learning/java/toolchain-slice`
+  - `learning/java/language-essentials-slice`
 
 ## Next Recommended Work
 
-1. Continue modern Java language essentials with tests.
-2. Decide whether to align Maven to Java 25 before using Java 25-specific features.
+1. Decide whether to align Maven to Java 25 before using Java 25-specific features.
+2. Continue object modeling, package boundaries, collections, streams, and error handling.
 3. Keep learning slices small and test-backed.
 4. Define AI collaboration rules only when they become necessary for learning workflow.
 

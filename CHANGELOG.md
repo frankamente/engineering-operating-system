@@ -4,6 +4,8 @@ All notable changes to this repository will be documented in this file.
 
 ## Unreleased
 
+- Added the Java language essentials learning slice.
+- Updated Java learning CI to test all Maven learning slices.
 - Added the first Maven-based Java learning slice.
 - Added GitHub Actions checks for Java learning slices.
 - Recalibrated the Java Foundations Learning Track for intermediate backend learning.
