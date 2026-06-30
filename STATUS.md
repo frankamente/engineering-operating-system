@@ -2,7 +2,7 @@
 
 ## Last Updated
 
-2026-06-29
+2026-06-30
 
 ## Current Season
 
@@ -28,6 +28,7 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 - Modern Java language essentials slice tested successfully.
 - Maven learning baseline aligned to Java 25.
 - Repository diagram standard set to Mermaid.
+- Learning inventory started.
 - GitHub labels, milestones, and Project workflow.
 
 ## Current Board State
@@ -37,6 +38,7 @@ Continue structured Java foundations learning at an intermediate backend-enginee
 - Current learning slices:
   - `learning/java/toolchain-slice`
   - `learning/java/language-essentials-slice`
+- Current learning map: `docs/learning/learning-inventory.md`.
 
 ## Next Recommended Work
 

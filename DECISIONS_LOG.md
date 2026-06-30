@@ -40,3 +40,5 @@
   Reason: The local `java`, `javac`, and Maven runtime now all use Java 25, so the Maven compiler release and CI baseline should match the actual toolchain.
 - Decision: Use Mermaid for all repository diagrams.
   Reason: Mermaid keeps diagrams text-based, reviewable, versioned, and easy for AI collaborators to maintain.
+- Decision: Keep a learning inventory separate from the actionable backlog.
+  Reason: The project needs a complete learning map without turning every future topic into an issue before it is ready to act on.
