@@ -29,3 +29,4 @@ Start structured Java foundations learning.
 - The second Maven-based Java learning slice exists under `learning/java/language-essentials-slice`.
 - Java learning Maven slices now use Java 25 as their baseline.
 - Repository diagrams must use Mermaid as their canonical source format.
+- The learning inventory lives at `docs/learning/learning-inventory.md`.

@@ -19,6 +19,7 @@ Progress: 0%
 - [Engineering Manifesto](ENGINEERING_MANIFESTO.md)
 - [Roadmap](ROADMAP.md)
 - [Project Status](STATUS.md)
+- [Learning Inventory](docs/learning/learning-inventory.md)
 - [Java Foundations Track](docs/learning/java-foundations-track.md)
 - [Java Toolchain Slice](learning/java/toolchain-slice/README.md)
 - [Java Language Essentials Slice](learning/java/language-essentials-slice/README.md)

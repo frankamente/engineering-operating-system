@@ -56,6 +56,7 @@ By the end of Season 1, the repository should define:
 - `STATUS.md`: initial draft complete.
 - `ENGINEERING_MANIFESTO.md`: initial draft complete.
 - `docs/learning/java-foundations-track.md`: started.
+- `docs/learning/learning-inventory.md`: learning map started.
 - `knowledge-base/java/jvm-jdk-jre.md`: initial note complete.
 - `knowledge-base/java/maven-toolchain.md`: initial note complete.
 - `learning/java/toolchain-slice`: first Maven slice created.
@@ -75,6 +76,7 @@ By the end of Season 1, the repository should define:
 
 ### Learning Work
 
+- Learning inventory.
 - Java toolchain alignment.
 - Maven-based learning slices.
 - Modern Java language essentials.
